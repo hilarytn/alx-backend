@@ -20,7 +20,7 @@ class FIFOCache(BaseCaching):
             k = sorted(self.cache_data.keys())
             discard = self.cache_data.pop(k[0])
             print('Discard:', k[0])
-            self.cache_data[key] = item   
+            self.cache_data[key] = item
         
     def get(self, key):
         """Get an item by key"""
