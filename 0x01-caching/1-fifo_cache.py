@@ -15,13 +15,13 @@ class FIFOCache(BaseCaching):
         elif len(self.cache_data) < BaseCaching.MAX_ITEMS:
             self.cache_data[key] = item
         elif key in self.cache_data:
-                self.cache_data[key] = item
+            self.cache_data[key] = item
         elif len(self.cache_data) >= BaseCaching.MAX_ITEMS:
             k = sorted(self.cache_data.keys())
             discard = self.cache_data.pop(k[0])
             print('Discard:', k[0])
             self.cache_data[key] = item
-        
+
     def get(self, key):
         """Get an item by key"""
         if key is None or key not in self.cache_data:
