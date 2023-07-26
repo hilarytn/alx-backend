@@ -2,9 +2,10 @@
 """ 0-basic_cache """
 BaseCaching = __import__('base_caching').BaseCaching
 
+
 class BasicCache(BaseCaching):
-    """ BaseCache defines the methods to 
-      -put and 
+    """ BaseCache defines the methods to
+      -put and
       -get the cached key-value pairs
     """
 
