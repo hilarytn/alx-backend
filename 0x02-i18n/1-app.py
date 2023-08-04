@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install and configure Flask-Babel library"""
+"""Configure Flask-Babel library"""
 from flask import Flask, render_template
 from flask_babel import Babel
 
