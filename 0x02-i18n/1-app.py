@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""This module is a basic Flask
-   app to show i18n/L10n and also
-   install the Flask-Babel library
-   and configure it
-"""
+"""Install and configure Flask-Babel library"""
 from flask import Flask, render_template
 from flask_babel import Babel
 
