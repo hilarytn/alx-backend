@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask, render_template
 """A basic Flask app to show i18n/L10n"""
 
