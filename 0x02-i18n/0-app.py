@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 from flask import Flask, render_template
-"""This module is a basic Flask
-   app to show i18n/L10n
-"""
+"""Ok"""
 
 
 app = Flask(__name__)
